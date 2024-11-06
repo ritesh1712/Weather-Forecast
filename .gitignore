@@ -1,0 +1,67 @@
+# React Native
+node_modules/
+*.log
+*.patch
+*.crt
+*.pem
+*.key
+
+# Dependency directories
+/node_modules
+/buck-out
+/.buckd
+/.idea
+*.iml
+/ios/Pods
+/.vscode
+.expo
+
+# Android
+/android/.gradle
+/android/app/build
+/android/.idea
+/android/local.properties
+/android/.settings
+/android/build
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+/ios/.idea
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+
+# macOS
+*.DS_Store
+
+# Watchman
+.watchmanconfig
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.env
+*.keystore
+*.jks
+*.p8
+*.p12
+*.cer
+*.crt
+*.der
+
+# Generated files
+.expo/*
+.expo-shared/*
+web-build/
